@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tutorial_Demo>
+            <version>0.1.0</version>
+        </Tutorial_Demo>
+    </modules>
+	
+    <frontend>
+        <routers>
+            <demo>
+                <use>standard</use>
+                <args>
+                    <module>Tutorial_Demo</module>
+                    <frontName>demo</frontName>
+                </args>
+            </demo>
+        </routers>
+        
+    </frontend>
+     
+</config>
